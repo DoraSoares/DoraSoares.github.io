@@ -1,0 +1,229 @@
+html, body{
+    margin: 0 10pt 10pt 5pt;
+}
+
+
+header{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 10;
+    background-color:goldenrod;
+}
+
+#logo{
+    height: 4pt;
+    float: left;
+    margin: 10pt 0 0 30pt;
+}
+
+#menu{
+    float: right;
+    margin-right: 40pt;
+    margin-bottom: 5%;
+    list-style: none;
+}
+
+.acesso{
+    float: left;
+    padding: 0 20pt;
+    font-size: 15pt;
+}
+
+.link{
+    text-decoration: none;
+    color:whitesmoke;
+    
+
+}
+
+.acesso:hover{
+    background-color: black;
+}
+
+h5, h6{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0pt 0 0pt 0pt;
+}
+
+#sobremim{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+    padding-top: 15%;
+}
+
+#minhafoto{
+    width: 400px;
+    height: 400px;
+    border-radius: 200%;
+    border: 3px brown solid;
+    transition: 0.5s ease-in-out;
+    float: right;
+}
+
+#minhafoto:hover{
+    box-shadow: 0px 0px 15px gray;
+}
+
+#apresentacao{
+    text-align:justify;
+    margin-top: -60pt
+}
+
+.texto{
+    width: 65%;
+    word-spacing: 5pt;    
+}
+
+button{
+    color:aliceblue;
+    font-style: oblique;
+    background-color:gray;
+    text-align: center;
+    letter-spacing: 3px;
+    border: none;
+    padding: 10px;
+}
+
+button:hover{
+    background-color:rgb(179, 179, 233);
+}
+
+table{
+    width:100%;
+    text-align: justify;
+    height: 200px;
+    font-size: 12pt;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+td{
+    padding: 10pt 10pt 0 30pt;  
+}
+
+h2{
+    text-align: center;
+    padding: 15pt 0 0 15pt;
+}
+
+p{
+    text-align: justify;
+}
+
+.coluna{
+    float: left;
+    padding: 0pt 0pt 0pt 10pt;
+    position:relative;
+    width: 30%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.projeto{
+    padding: 0pt 20pt 0 40pt;
+    float: left;
+    margin-top: 0%;
+    margin-bottom: 5%;
+   
+}
+
+.imagemprojeto{
+  width: 100%;
+  height: 100%;
+}
+
+.mensagem{
+    margin: 10pt;
+}
+
+#formulario{
+    padding-left: 30%;
+    margin: 10pt;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+}
+
+.relogio {
+    align-items: center;
+    border: 1px solid goldenrod;
+    border-radius: 10%;
+    color:aliceblue;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+   
+}
+
+footer{
+    margin: 10pt 10pt 10pt 0;
+}
+
+.rodapé {
+    text-align: center;
+    color:aliceblue;
+    font-size: 12pt;
+
+}
+
+@media all and (max-width: 768px){
+    html, body{
+        margin-top: 20%;
+    }
+    #menu{
+        visibility: hidden;
+    }
+
+    #logo{
+        margin-left: 20%;
+    }
+
+    button{
+        display: block;  
+    }
+
+    #sobremim{
+        padding: 0;
+        margin-left: 15%;
+        display: block;
+        
+    }
+
+    table{
+        width: 50%;
+    }
+
+    #minhafoto{
+        margin-top: 40%;
+        width: 70%;
+        height: 30%;
+        float: none;
+    }
+
+    .coluna{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #formulario{
+        padding-left: 0%;
+   }
+
+    .col-25, .col-75, input[type=submit] {
+        width: 75%;
+        margin-top: 0;      
+    }
+}

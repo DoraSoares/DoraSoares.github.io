@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Meu Portfólio_Dora Soares</title>
+</head>
+
+<body>
+
+    <script src="./javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+     <!-- menu e cabeçalho com ícome e meu nome. Menu: curriculo, projeto e contato -->
+     <header>
+        <button class="btn btn-secondary m-3 position-absolute top-0 end-0" id="TemaSite" onclick="TemaSite()"><i class="bi bi-brightness-low"></i></button>
+        <div id="logo">
+           
+            <!-- incluir a imagem -->
+           
+            <img src="./logotipo.jpg" alt="logotipo" height="30px">
+            <h5>Maria Auxiliadora Soares</h5> <h6>Estudante de Programação</h6>
+        </div>
+       
+        <ul id="menu">
+            <li class="acesso">  <a class="link" href="#Curriculo">Currículo</a></li>
+            <li class="acesso"> <a class="link" href="#Projetos">Projetos</a> </li>
+            <li class="acesso"> <a class="link" href="#Contato">Contato</a></li>
+        </ul>
+    </header>
+
+    <!--corpo propriamente dito do site-->
+
+    <!--1ª parte: Um pouco de mim-->
+    <section id="sobremim">
+    <div id="apresentacao" >
+        <img src="./img/Dora(1).jpg" alt="minhafoto" id="minhafoto">
+        <h1 class="texto">Olá,</h1>
+        <h1 class="texto">Sou Maria Auxiliadora Soares</h1>
+        <p class="texto"> Enfermeira há 16 anos, trabalhei na gestão de municípios e do estado, exerci a docência e atualmente estou atuando em uma Unidade Básica de Saúde (UBS). <br>Sou doutoranda em saúde coletiva e há um ano venho cultivando a ideia de me inserir na área da Tecnologia da Informação (TI), o que foi impulsionado com a minha inserção na criação de um programa para o sindicato, em que atuo. <br> Durante o processo de pós-graduação tenho trabalhado com grandes bancos de dados, utilizando programas de análise de dados que envolvem programação e, durante todo o meu processo formativo e profissional, o uso de sistemas de informação em sáude é a base da minha prática. <br>  A participação no projeto ElasnaTech foi uma oportunidade de iniciar o processo de aprendizagem e confirmar o meu desejo. Vislumbro unir o conhecimento, que tenho, na área da saúde com os que tenho apreendido neste novo processo formativo.</p>
+    </div>
+        <menu><a href="#Curriculo"><button>Currículo</button></a> <a href="#Projetos"><button>Projetos</button></a>  <a href="#Contato"><button>Contato</button></a></menu>
+    
+    </section>
+    
+    <!-- 2ª parte apresentar breve currículo com algumas experiências-->
+    <section class="meucurriculo">
+        <h2 id="Curriculo">Currículo</h2>
+        <table>
+            <tr>
+                <td><b>Experiência Profissional</b></td>
+                <td><b>2016-Atual</b></td>
+                <td>Secretaria Municipal de Saúde de Salvador <br> Servidora Púbica exercendo atividade de enfermeira de UBS.</td>
+            </tr>
+           
+            <tr>
+                <td></td>
+                <td><b>2020-Atual</b></td>
+                <td>Centro de Pesquisa Gonçalo Muniz<br>Pesquisadora bolsista na àrea de saúde coletiva trabalhando com a temática da sífilis.</td>
+            </tr>
+            
+            <tr>
+                <td><b>Formação</b></td>
+                <td><b>2021-Atual</b></td>
+                <td>Doutorado em Saúde Coletiva</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>2018-2020</b></td>
+                <td>Mestrado em Saúde Coletiva</td>
+            </tr>                 
+            <tr>
+                <td><b>Cursos</b></td>
+                <td><b>2023</b></td>
+                <td>Curso de Libras</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>2021</b></td>
+                <td>Curso em Auriculoterapia</td>
+            </tr>
+
+        </table>
+
+        <a href="http://lattes.cnpq.br/0870503142684998" target="_blank" ><i class="bi bi-hand-index-thumb"></i>Saiba mais sobre mim!</a>
+    </section>
+
+    <!--3ª parte: apresentar alguns projetos realizados durante o curso de programação-->
+    <section>
+        <h2 id="Projetos">Projetos</h2>
+        <p>Durante o curso de programação desenvolvi algumas atividades para implementação do Html, css e javascript. O primeiro trabalho apresentado, utilizando apenas o Html, foi o meu currículo.</p>
+        <p> Esta atividade foi entregue, mas, posteriormente, <a href="https://dorasoares.github.io/CurriculoDora/" target="_blank" >melhorada</a>, pois queria incluir fotos e links.</p>
+        <p>Além do currículo, elaborei um cardápio, fiz um site sobre um dos Objetivos de Desenvolvimento Sustentável e outras atividades que fui construíndo a partir da orientação de vídeos.</p>
+    </section>
+
+    <section class="projeto">
+        <div class="coluna">
+            <a href="https://dorasoares.github.io/cardapio/"><img src="./img/Cardapio.jpg" alt="atividade do cardápio" class="imagemprojeto" target="_blank"></a>
+            <p>A terceira atividade realizada foi o site sobre um dos Objetivos do Desenvolvimento Sustentável,no qual escolhi o objetivo 3 sobre Saúde e Bem estar, por ser uma temática confortável para mim.<br> Nesta atividade utilizei o html, css e inclui as formatações para a responsividade. </p>
+        </div>
+        
+        <div class="coluna">
+            <a href="https://dorasoares.github.io/ODSDesafioTres/"><img src="./img/Meuprimeirosite.jpg" alt="Site sobre ODS" class="imagemprojeto" target="_blank"></a>
+            <p>Nesta atividade utilizei html e css, porém novos recursos de css foi apreendido e o site incluiu responsividade.</p>
+        </div>
+      
+
+    </section>
+
+    <section class="projeto">
+        <div class="coluna">
+            <!-- atualizar o projeto-->
+            <a href="https://dorasoares.github.io/ProjetoCarros/"><img src="./img/carros.jpg" alt="Projeto Carros" class="imagemprojeto" target="_blank"></a>
+            <p>Para treinar o javascript e o bootstrap realizei uma atividade que foi orientada pela Giulia Amaral (Estudantes.dev). O projeto dos carros não foi uma demanda do curso, mas considerei importante incluir neste portfólio.</p>
+        </div>
+
+        <div class="coluna">
+            <div class="container">
+                <div class="relogio"></div>
+              </div>
+              <p>O relógio digital foi incluído no portfólio com o objetivo de treinar mais um pouco o javascript, visto que realizei a leitura do material didático e considerei importante exercitar mais um pouco a implementação desta linguagem de programação.</p>      
+            </div>
+         
+            
+    </section>
+
+   
+    <!--4ª parte: Meus contatos, inserir formulário de contato-->
+    
+
+    
+    <section id="Mensagem">
+        <h2 id="Contato">Contato</h2>
+        <div>
+                <form id="formulario">
+                <label for="informacao">Nome:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="informacao">E-mail:</label><br>
+                <input type="email" id="lname" name="lname"><br>
+                <label for="informacao">Telefone:</label><br>
+                <input type="tel" id="lname" name="lname"><br>
+                <label for="informacao">Mensagem:</label><br>
+                <textarea name="message" rows="10" cols="55"></textarea><br>
+                <input type="submit" value="Enviar"><br>
+              </form>
+            </div>
+       
+    </section>
+
+    <!--incluir contato com espaço para preencher-->
+      <hr>  
+        
+    <!--informações do rodapé-->
+    <footer>
+        <p class="rodapé">Desenvolvido por Maria Auxiliadora Soares como produto do curso Elas na Tech,2023.</p>
+        <p class="rodapé"><i class="bi bi-telephone"></i> (71)9.9999-9999</p>
+        <p class="rodapé"><i class="bi bi-envelope-at"></i> soaresmariaauxiliadora@gmail.com</p> 
+        <p class="rodapé"><a  href="https://github.com/DoraSoares" target="_blank"> <i class="bi bi-github"></i> </a> <a href="https://www.linkedin.com/in/dora-soares-3b7392293/" target="_blank"> <i class="bi bi-linkedin"></i></a></p>
+      
+        
+
+    </footer>
+</body>
+</html>
